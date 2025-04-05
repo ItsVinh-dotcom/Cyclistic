@@ -2,61 +2,53 @@
 
 https://public.tableau.com/app/profile/tien.vinh.le.gia/viz/GoogleBusinessIntelligenceCertificate_CyclisticExemplar/CyclisticExemplar
 
-## Giới thiệu
+## 📍 Introduction
 
-Dự án **Cyclistic BI** được xây dựng nhằm hỗ trợ nhóm tăng trưởng khách hàng của công ty Cyclistic hiểu rõ hơn về hành vi sử dụng dịch vụ chia sẻ xe đạp của khách hàng. Các phân tích trong dự án tập trung vào việc xác định nhu cầu khách hàng tại các địa điểm trạm, giúp công ty đưa ra quyết định hiệu quả trong việc phát triển và mở rộng các trạm xe mới dựa trên dữ liệu thực tế.
+The Cyclistic BI project was developed to support the customer growth team at Cyclistic in gaining deeper insights into customer behavior regarding the company’s bike-sharing services. The analyses in this project focus on identifying customer demand at station locations, helping the company make data-driven decisions when developing and expanding new bike stations
 
-## Mục tiêu dự án
+## 🎯 Project Objectives
 
-- Tổng hợp và phân tích dữ liệu từ hàng triệu lượt sử dụng xe đạp của khách hàng.
-- Xác định các yếu tố tác động đến nhu cầu sử dụng xe đạp tại các trạm khác nhau.
-- Xây dựng dashboard trực quan để hỗ trợ quyết định chiến lược về mở rộng các trạm mới.
+- Aggregate and analyze data from millions of customer bike trips.
+- Identify key factors influencing bike usage demand at different stations.
+- Build interactive dashboards to support strategic decisions on station expansion.
 
-## Công nghệ sử dụng
+🛠️ Technologies Used
+- BI Tool: Tableau
+- Data Sources: SQL database, Cyclistic trip data, weather data
+- Data Processing Technologies: SQL and ETL
 
-- **Công cụ BI**: Tableau
-- **Nguồn dữ liệu**: Cơ sở dữ liệu SQL, dữ liệu chuyến đi của Cyclistic, dữ liệu thời tiết
-- **Công nghệ xử lý dữ liệu**: SQL và ETL
+## 📊 Data Description
 
-## Dữ liệu
+- The dataset includes detailed information on bike trips, such as:
+  - Start and end locations
+  - Trip duration
+  - Time of day
+  - Seasons and weather conditions
+- The data has been cleaned and processed to:
+  - Ensure accuracy and consistency
+  - Remove any personally identifiable information to comply with privacy regulations
 
-- Dữ liệu bao gồm các chuyến đi xe đạp với thông tin chi tiết về:
-  - Vị trí bắt đầu và kết thúc
-  - Thời lượng chuyến đi
-  - Thời gian trong ngày
-  - Mùa và thời tiết
-- Dữ liệu đã được xử lý và làm sạch nhằm:
-  - Đảm bảo tính chính xác
-  - Không chứa dữ liệu cá nhân để tuân thủ các yêu cầu về quyền riêng tư
+## 🔍 Analysis Process
+- Collect trip and weather data, approved by relevant stakeholders.
+- Process data using ETL tools for cleaning and standardization.
+- Analyze data with Tableau to develop interactive dashboards.
+- Review, evaluate, and refine the dashboards based on feedback from the data team and stakeholders.
 
-## Quy trình phân tích
+## 📈 Key Findings
 
-1. Thu thập dữ liệu khách hàng và dữ liệu thời tiết, được phê duyệt bởi các bên liên quan.
-2. Xử lý dữ liệu với các công cụ ETL để chuẩn hóa và làm sạch.
-3. Phân tích dữ liệu bằng công cụ Tableau để xây dựng các dashboard trực quan.
-4. Kiểm tra, đánh giá và tinh chỉnh các dashboard theo phản hồi từ nhóm phụ trách dữ liệu và các bên liên quan.
+The final dashboard includes the following visualizations:
+- Maps and tables of the most popular bike station locations (start and end points)
+- Usage trends based on seasonality, weather, and time of day
+- Year-over-year growth in bike usage
+- Average trip duration and most popular stations
 
-## Kết quả
+## 🧭 How to Use
 
-Dashboard cung cấp các visualizations chính sau:
+- The dashboard is shared with read-only access for key Cyclistic stakeholders
+- Users can interact with the dashboard to filter data by day, month, or year
+- The dashboard allows drill-downs for detailed views by clicking on specific metrics
 
-- Bản đồ và bảng thống kê vị trí trạm xe đạp phổ biến (bắt đầu và kết thúc).
-- Xu hướng sử dụng xe đạp dựa trên mùa, thời tiết, và thời gian trong ngày.
-- Mức tăng trưởng sử dụng xe đạp qua từng năm.
-- Thời gian trung bình mỗi chuyến đi và các trạm phổ biến nhất.
-
-## Hướng dẫn sử dụng
-
-- Dashboard được cung cấp với **quyền truy cập chỉ đọc** dành cho các stakeholder chính của Cyclistic.
-- Người dùng có thể tương tác với dashboard để lọc dữ liệu theo ngày, tháng và năm.
-- Dashboard có khả năng hiển thị chi tiết khi nhấp vào từng chỉ số cụ thể.
-
-## Đóng góp
-
-- Hiện tại, dự án này **không mở cho cộng đồng đóng góp**.
-- Tuy nhiên, phản hồi và gợi ý cải tiến luôn được chào đón.
-
-## Liên hệ
+## Contact
 
 - **BI Analyst**: Lê Gia Thiên Vinh  
 - **Email**: legiatienvinh@gmail.com 
